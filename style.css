@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background: #e3f2fd;
+}
+
+.container{
+    position: relative;
+    background-image: url(bg.png);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.container:hover{
+    transform: rotateY(180deg);
+   
+}
+
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h5.number{
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
+
+header .chip{
+    width: 60px;
+}
+
+.container .card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+
+/* -----------------backside----------------- */
+/* 
+.card-back-side{
+    position: relative;
+    background-image: url(bg.png);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    transform: rotateY(180deg);
+    z-index: -1;
+    
+}
+
+
+.card-back-side .magnetic-strip{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+}
+
+.card-back-side h5{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.card-back-side .signature{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+    height: 30px;
+    width: 100%;
+    border-radius: 6px;
+    
+}
+
+.signature i{
+    color: #000;
+    z-index: 5;
+    font-size: 20px;
+}
+
+
+ */
